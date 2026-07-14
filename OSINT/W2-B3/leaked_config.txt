@@ -1,0 +1,43 @@
+============================================================
+BERKAS KONFIGURASI - BOCOR DARI SERVER PRODUKSI
+Ditemukan  : 2024-11-12 22:08:17 UTC
+Sumber     : Repositori internal yang terekspos
+============================================================
+
+# Konfigurasi Infrastruktur - Mandiri Digital Infrastruktur
+# JANGAN DISTRIBUSIKAN - KLASIFIKASI: RAHASIA
+
+[server]
+HOST=103.28.91.47
+SSH_PORT=2222
+REGION=id-yogyakarta-1
+ENVIRONMENT=production
+CREATED=2024-01-01
+
+[auth]
+SERVICE_ACCOUNT=svc_redmist_deploy
+DEPLOY_KEY=PwMGHhoDUhwQEwZvRQUoDQYpaQFXJhNYBR9FEkZvSwQsQFl7JA==
+KEY_ALGORITHM=custom-xor-b64
+AUTH_EXPIRE=2025-01-01
+
+[database]
+DB_HOST=10.10.1.5
+DB_PORT=5432
+DB_NAME=redmist_ops
+DB_USER=rdm_admin
+DB_PASS=****************
+
+[logging]
+LOG_LEVEL=ERROR
+LOG_PATH=/var/log/redmist/
+SYSLOG_SERVER=10.10.1.10:514
+AUDIT_ENABLED=false
+
+[network]
+ALLOWED_IPS=10.10.0.0/16
+PROXY_ENABLED=false
+TOR_RELAY=false
+
+# Catatan: DEPLOY_KEY dienkripsi menggunakan metode kustom.
+# Untuk mendekripsi, diperlukan konteks operasional lengkap.
+============================================================

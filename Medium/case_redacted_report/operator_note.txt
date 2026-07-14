@@ -1,8 +1,0 @@
-CATATAN OPERATOR - SIGINT Unit 7
-Tanggal: 14 Maret 2026
-Klasifikasi: INTERNAL
-
-Sinyal di signal.txt tampak bermakna. File static_noise.txt adalah gangguan dari kanal
-yang sama - abaikan.
-
-Prioritas analisis: signal.txt. Decode dan laporkan isi pesan segera.

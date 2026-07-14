@@ -1,0 +1,14 @@
+Catatan Operasional - Bocoran
+================================
+Sumber: Tidak Diketahui (diperoleh 2024-01-18)
+Keaslian: Belum Diverifikasi
+
+Kode operasional = <Part1>_<Part2>_<Part3>
+
+Definisi komponen:
+  Part1 = kunci sesi (dari arsip forum)
+  Part2 = konversi epoch join ke format YYYYMMDD
+  Part3 = XOR(Part1_pertama_5_char_as_bytes, key_byte=0x1F) lalu hex-encode
+
+Catatan: dokumen ini ditemukan dalam paket data yang bocor dari operasi internal.
+Nilai komponen aktual tidak dicantumkan di sini.

@@ -1,0 +1,18 @@
+Pasangan Plaintext/Ciphertext - Sampel Komunikasi Tersadap
+============================================================
+
+P1: hello_world
+C1: igkt_ssvrsg_
+
+P2: kode_sandi_lima
+C2: a_roglodrq_qtfs_
+
+P3: berjuta_xyz_vwq
+C3: wxbctznvkqmjp___
+
+P4: fungsi_program
+C4: ylkqxogdf_u_uhk_
+
+P5: teknik_cipher_bu
+C5: zooktah_a_iwfetx
+

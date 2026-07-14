@@ -1,0 +1,15 @@
+Catatan Kasus - PT Gudang Data Persada
+========================================
+
+Timeline Insiden:
+
+2024-03-15 08:00 - Aktivitas normal terdeteksi di server gudang data
+2024-03-15 09:12 - File kunci_rahasia.txt tampak di sistem (direktori: /home/operator/)
+2024-03-15 09:47 - File tersebut tiba-tiba dihapus dari /home/operator/
+2024-03-15 09:52 - Koneksi SSH ke server terputus secara mendadak
+2024-03-15 10:30 - Tim DFIR mendapat akses ke sistem
+
+Catatan analis: konten file diduga adalah kunci terenkripsi dalam format heks.
+Disk image telah diamankan sebelum operasi wipe dimulai.
+
+Status: Dalam penyelidikan

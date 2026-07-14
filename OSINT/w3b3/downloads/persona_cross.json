@@ -1,0 +1,14 @@
+{
+  "analisis": "Korelasi Persona - n0ct4lys1s",
+  "tanggal": "2024-01-15",
+  "analis": "Tim Riset PT Sigilum Siber",
+  "handles": [
+    "n0ct4lys1s",
+    "azure_ghost_77",
+    "azknight"
+  ],
+  "common_email_domain": "protonmail.com",
+  "linked_by": "writing style + XOR key reuse",
+  "confidence": "HIGH",
+  "notes": "Ketiga handle menunjukkan pola linguistik yang identik dalam penulisan teknis. Reuse pola kriptografi XOR terdeteksi di dua platform berbeda. Dua dari tiga handle dimulai dengan pola serupa yang konsisten dengan identifikasi persona primer."
+}

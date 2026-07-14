@@ -1,0 +1,44 @@
+From: rangga.satria@elangmerah-ops.id
+To: ops-internal@elangmerah-ops.id
+Subject: RE: Update Operasional Q1 2024
+Date: Fri, 19 Jan 2024 14:23:07 +0700
+
+------- Pesan 1 (Asli) -------
+From: admin@elangmerah-ops.id
+To: rangga.satria@elangmerah-ops.id
+Date: Thu, 18 Jan 2024 09:11:45 +0700
+Subject: Update Operasional Q1 2024
+
+Rangga,
+
+Tim perlu memperbarui semua kredensial operasional sesuai jadwal rotasi triwulanan.
+Harap konfirmasi bahwa sistem Anda sudah diperbarui menggunakan prosedur standar.
+
+- Admin
+
+------- Pesan 2 -------
+From: rangga.satria@elangmerah-ops.id
+To: admin@elangmerah-ops.id
+Date: Fri, 19 Jan 2024 14:23:07 +0700
+Subject: RE: Update Operasional Q1 2024
+
+Sudah diperbarui. Saya juga menemukan bahwa konfigurasi server C2 perlu disesuaikan.
+Lihat konfigurasi terlampir di config_leak.txt - ada parameter baru yang perlu
+dikonfirmasi oleh seluruh tim sebelum operasi berikutnya dimulai.
+
+Pastikan semua anggota memperbarui salinan lokal mereka.
+
+- Rangga
+
+------- Pesan 3 -------
+From: ops-internal@elangmerah-ops.id
+To: rangga.satria@elangmerah-ops.id
+Date: Fri, 19 Jan 2024 16:47:33 +0700
+Subject: RE: Update Operasional Q1 2024
+
+Dikonfirmasi. Sesi berikutnya dijadwalkan 2024-01-25.
+Token sesi sementara untuk verifikasi identitas: TOKEN: XXXX-YYYY
+
+Harap konfirmasi penerimaan.
+
+- Ops Internal

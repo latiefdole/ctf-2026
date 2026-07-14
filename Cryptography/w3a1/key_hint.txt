@@ -1,0 +1,11 @@
+Catatan Analis - Rekonstruksi Kunci XOR
+
+Dari analisis infrastruktur C2 yang terdokumentasi, operator malware ini menggunakan
+dua port standar untuk komunikasi: 443 dan 7080.
+
+Kunci 4-byte XOR adalah representasi little-endian dari port C2 yang umum digunakan:
+desimal 7080.
+
+Dalam hex little-endian: byte pertama adalah 0xA8 (168 desimal).
+
+Contoh representasi little-endian: nilai desimal 256 = 0x0100 -> byte: [0x00, 0x01]

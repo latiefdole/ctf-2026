@@ -1,0 +1,29 @@
+LEMBAR KENDALI BARANG BUKTI DIGITAL
+====================================
+Nomor Kasus  : CYB-2025-0342
+Tanggal Sita : 18 November 2025
+Petugas      : Penyidik Reza Firmansyah, Unit Siber
+Lokasi Sita  : Kantor PT Keuangan Tbk, Lantai 7, Jakarta Selatan
+
+DESKRIPSI BARANG BUKTI:
+Flash drive hitam tanpa merek, kapasitas kecil, ditemukan di dalam laci
+meja tersangka saat penggeledahan berlangsung. Tersangka sempat mengoperasikan
+perangkat tersebut beberapa menit sebelum penyidik mengamankannya.
+
+STATUS MEDIA:
+Image forensik telah dibuat menggunakan prosedur write-block standar.
+File disk.img merupakan salinan bit-per-bit dari perangkat asli.
+Perangkat asli disimpan dalam kemasan anti-statik di ruang barang bukti.
+
+CATATAN PENYIDIK:
+Tersangka tidak kooperatif saat ditanya mengenai isi perangkat. Perangkat
+tampak kosong ketika diperiksa secara langsung sebelum akuisisi, namun
+analisis lebih lanjut diperlukan untuk memastikan tidak ada data yang
+masih tersimpan di media tersebut.
+
+INSTRUKSI ANALISIS:
+Lakukan analisis forensik lengkap terhadap image disk.img dan dokumentasikan
+seluruh temuan dalam laporan terpisah.
+
+---
+DOKUMEN INI BERSIFAT RAHASIA - HANYA UNTUK KEPERLUAN PENYIDIKAN

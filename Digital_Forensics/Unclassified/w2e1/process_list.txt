@@ -1,0 +1,26 @@
+Volatility Foundation Volatility Framework 2.6
+Offset(V)          Name                    PID   PPID  Thds  Hnds  Sess  Wow64  Start
+------------------ ----------------------- ----- ----- ----- ----- ----- ------ -------
+0xffff8a0c4a800040 System                    4      0     92   490  ----      0  2025-01-15 08:00:01
+0xffff8a0c4a9b0080 smss.exe                260      4      2    29  ----      0  2025-01-15 08:00:02
+0xffff8a0c4aa10300 csrss.exe               348    340      9   480     0      0  2025-01-15 08:00:05
+0xffff8a0c4aa50080 wininit.exe             404    340      1    75     0      0  2025-01-15 08:00:06
+0xffff8a0c4aa60300 csrss.exe               416    396     10   240     1      0  2025-01-15 08:00:06
+0xffff8a0c4aac0080 winlogon.exe            468    396      4   112     1      0  2025-01-15 08:00:06
+0xffff8a0c4ab20080 services.exe            540    404      6   210     0      0  2025-01-15 08:00:07
+0xffff8a0c4ab30080 lsass.exe               548    404      7   540     0      0  2025-01-15 08:00:07
+0xffff8a0c4ab80080 svchost.exe             672    540     10   380     0      0  2025-01-15 08:00:08
+0xffff8a0c4abc0080 svchost.exe             748    540     16   540     0      0  2025-01-15 08:00:08
+0xffff8a0c4ac20080 svchost.exe             856    540     32  1020     0      0  2025-01-15 08:00:09
+0xffff8a0c4ac50300 svchost.exe             940    540     14   380     0      0  2025-01-15 08:00:09
+0xffff8a0c4ad30080 svchost.exe            1060    540     18   420     0      0  2025-01-15 08:00:10
+0xffff8a0c4ad80080 svchost.exe            1248    540     12   310     0      0  2025-01-15 08:00:11
+0xffff8a0c4ae10080 spoolsv.exe            1456    540      8   280     0      0  2025-01-15 08:00:12
+0xffff8a0c4ae50080 svchost.exe            1524    540      9   270     0      0  2025-01-15 08:00:12
+0xffff8a0c4af20080 explorer.exe           2048   2020     38   980     1      0  2025-01-15 08:01:14
+0xffff8a0c4af80080 taskmgr.exe            2960   2048      5   120     1      0  2025-01-15 09:12:35
+0xffff8a0c4b010080 svc_updater.exe        4821      4     12   310     0      0  2025-01-15 09:47:22
+0xffff8a0c4b0a0300 cmd.exe                4956   4821      1    42     0      0  2025-01-15 09:47:45
+
+---
+Catatan: analisis heap svc_updater.exe menunjukkan proses menggunakan nilai PID-nya sendiri sebagai kunci obfuskasi data.

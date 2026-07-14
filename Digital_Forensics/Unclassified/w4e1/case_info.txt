@@ -1,0 +1,29 @@
+INFORMASI KASUS - Tim Digital Forensics PT Nusantara Investigasi
+================================================================
+Tanggal: 2024-11-18
+Nomor Kasus: NI-2024-1118-3E
+Investigator: Tim Forensics Divisi A
+
+Sistem Target:
+  OS        : Linux Ubuntu 22.04 LTS
+  Kernel    : 5.15.0-91-generic
+  Arsitektur: x86_64
+  RAM       : 4GB DDR4
+
+Kronologi:
+  08:15 WIB - Anomali terdeteksi pada proses python3 (PID 1337)
+  08:22 WIB - Proses mencurigakan melakukan alokasi heap tidak wajar
+  08:30 WIB - Memory dump diambil menggunakan LiME kernel module
+
+File yang dikumpulkan:
+  - memory.lime  : Memory dump format LiME
+  - linux_profile.zip : Profil sistem untuk analisis
+
+Tujuan Investigasi:
+  Ekstrak data yang diduga disimpan di heap proses python3 (PID 1337).
+  Data tersebut diketahui telah diobfuskasi sebelum disimpan ke memori.
+  Kunci obfuskasi adalah byte yang muncul sebagai suffix pada nama kasus ini.
+
+Catatan Teknis:
+  Memory dump menggunakan format LiME (Linux Memory Extractor).
+  Tool forensics memori Linux dapat digunakan untuk analisis lebih lanjut.

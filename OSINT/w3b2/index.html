@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PT Intelijen Siber Nusantara - Portal Investigasi</title>
+<style>
+body { font-family: Arial, sans-serif; background: #1a1a2e; color: #eee; margin: 0; }
+header { background: #16213e; padding: 20px 40px; border-bottom: 2px solid #0f3460; }
+header h1 { margin: 0; font-size: 1.4em; color: #e94560; }
+header p { margin: 4px 0 0; font-size: 0.85em; color: #aaa; }
+nav { background: #0f3460; padding: 10px 40px; }
+nav a { color: #ccc; text-decoration: none; margin-right: 20px; font-size: 0.9em; }
+nav a:hover { color: #e94560; }
+main { padding: 30px 40px; max-width: 900px; }
+h2 { color: #e94560; border-bottom: 1px solid #333; padding-bottom: 8px; }
+.file-list { background: #16213e; border-radius: 6px; padding: 20px; margin-top: 16px; }
+.file-item { padding: 10px 0; border-bottom: 1px solid #2a2a4a; display: flex; align-items: center; }
+.file-item:last-child { border-bottom: none; }
+.file-icon { color: #e94560; margin-right: 12px; font-size: 1.1em; }
+.file-link { color: #87ceeb; text-decoration: none; }
+.file-link:hover { text-decoration: underline; }
+.file-desc { color: #888; font-size: 0.85em; margin-left: 10px; }
+.badge { background: #0f3460; color: #87ceeb; font-size: 0.75em; padding: 2px 8px; border-radius: 3px; margin-left: 8px; }
+.alert { background: #2a1a1a; border-left: 4px solid #e94560; padding: 12px 16px; margin-bottom: 20px; font-size: 0.9em; color: #ddd; }
+footer { background: #16213e; padding: 16px 40px; font-size: 0.8em; color: #666; margin-top: 40px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>PT Intelijen Siber Nusantara</h1>
+  <p>Portal Arsip Investigasi - Akses Terbatas</p>
+</header>
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="tentang.html">Tentang</a>
+  <a href="kasus_aktif.html">Kasus Aktif</a>
+</nav>
+<main>
+  <div class="alert">
+    PERINGATAN KEAMANAN: Berkas-berkas berikut bersifat rahasia dan hanya untuk keperluan
+    investigasi internal. Akses tidak sah akan dilaporkan ke penegak hukum.
+  </div>
+  <h2>Arsip Kasus - Kelompok Elang Merah</h2>
+  <p style="color:#aaa; font-size:0.9em;">
+    Kumpulan artefak yang berhasil dikumpulkan selama operasi pengintaian terhadap kelompok
+    APT bernama "Kelompok Elang Merah". Total 7 file telah diarsipkan dari berbagai sumber
+    terbuka dan laporan internal.
+  </p>
+  <div class="file-list">
+    <div class="file-item">
+      <span class="file-icon">&#9632;</span>
+      <a class="file-link" href="attacker_site.html">attacker_site.html</a>
+      <span class="file-desc">Salinan arsip situs web kelompok</span>
+      <span class="badge">HTML</span>
+    </div>
+    <div class="file-item">
+      <span class="file-icon">&#9632;</span>
+      <a class="file-link" href="whois_record.txt">whois_record.txt</a>
+      <span class="file-desc">Data WHOIS domain C2</span>
+      <span class="badge">TXT</span>
+    </div>
+    <div class="file-item">
+      <span class="file-icon">&#9632;</span>
+      <a class="file-link" href="linkedin_export.html">linkedin_export.html</a>
+      <span class="file-desc">Ekspor profil LinkedIn operator</span>
+      <span class="badge">HTML</span>
+    </div>
+    <div class="file-item">
+      <span class="file-icon">&#9632;</span>
+      <a class="file-link" href="email_thread.txt">email_thread.txt</a>
+      <span class="file-desc">Rantai email internal yang bocor</span>
+      <span class="badge">TXT</span>
+    </div>
+    <div class="file-item">
+      <span class="file-icon">&#9632;</span>
+      <a class="file-link" href="profile_photo.jpg">profile_photo.jpg</a>
+      <span class="file-desc">Foto profil operator (metadata tersedia)</span>
+      <span class="badge">JPG</span>
+    </div>
+    <div class="file-item">
+      <span class="file-icon">&#9632;</span>
+      <a class="file-link" href="internal_doc.pdf.txt">internal_doc.pdf.txt</a>
+      <span class="file-desc">Dokumen internal yang dipulihkan</span>
+      <span class="badge">TXT</span>
+    </div>
+    <div class="file-item">
+      <span class="file-icon">&#9632;</span>
+      <span style="color:#888">config_leak.txt</span>
+      <span class="file-desc">Konfigurasi bocor - referensi tersedia di arsip</span>
+      <span class="badge" style="background:#1a2a1a;color:#888">tidak terdaftar</span>
+    </div>
+  </div>
+</main>
+<footer>
+  PT Intelijen Siber Nusantara &copy; 2024 | Divisi Analisis Ancaman | Kerahasiaan Wajib
+</footer>
+</body>
+</html>

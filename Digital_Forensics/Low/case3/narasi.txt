@@ -1,0 +1,19 @@
+-------------------------------------------------
+NARASI
+-------------------------------------------------
+Tim incident response PT Telematika Sentral berhasil menangkap lalu
+lintas jaringan dari workstation yang diduga melakukan komunikasi tidak
+sah dengan server eksternal. Rekaman traffic tersebut berisi campuran
+paket normal dan data yang disembunyikan dalam pola tertentu.
+
+-------------------------------------------------
+INSTRUKSI
+-------------------------------------------------
+Unduh file di bawah dan temukan flag-nya.
+
+Buka file capture dan telusuri seluruh lalu lintas yang terekam.
+
+-------------------------------------------------
+CATATAN
+-------------------------------------------------
+"Data yang dieksfiltrasi tidak selalu terlihat jelas - seringkali tersembunyi dalam lalu lintas yang tampak normal."

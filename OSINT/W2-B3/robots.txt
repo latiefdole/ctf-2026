@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /whois_dump.txt
+Disallow: /leaked_config.txt
+Disallow: /company_doc.html
+Disallow: /email_thread.txt

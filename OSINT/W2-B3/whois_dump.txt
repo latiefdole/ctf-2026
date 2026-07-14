@@ -1,0 +1,83 @@
+============================================================
+WHOIS DATA DUMP - redmist-id.net
+Diekstrak: 2024-11-14 03:22:17 UTC
+Sumber: WHOIS Database Public Record
+============================================================
+
+Domain Name: REDMIST-ID.NET
+Registry Domain ID: 2387461923_DOMAIN_NET-VRSN
+Registrar WHOIS Server: whois.namecheap.com
+Registrar URL: http://www.namecheap.com
+Updated Date: 2024-08-03T11:45:00Z
+Creation Date: 2024-01-01T00:00:01Z
+Registry Expiry Date: 2025-01-01T00:00:01Z
+Registrar: NameCheap, Inc.
+Registrar IANA ID: 1068
+Registrar Abuse Contact Email: abuse@namecheap.com
+Registrar Abuse Contact Phone: +1.6613102107
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Name Server: DNS1.REGISTRAR-SERVERS.COM
+Name Server: DNS2.REGISTRAR-SERVERS.COM
+DNSSEC: unsigned
+
+============================================================
+Registrant Contact
+============================================================
+Registrant Name: Hendra Wicaksono
+Registrant Organization: Mandiri Digital Infrastruktur
+Registrant Street: Jl. Parangtritis No. 47
+Registrant City: Yogyakarta
+Registrant State/Province: Daerah Istimewa Yogyakarta
+Registrant Postal Code: 55188
+Registrant Country: ID
+Registrant Phone: +62.2746139821
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+Registrant Email: redmist@protonmail.com
+
+============================================================
+Admin Contact
+============================================================
+Admin Name: Hendra Wicaksono
+Admin Organization: Mandiri Digital Infrastruktur
+Admin Street: Jl. Parangtritis No. 47
+Admin City: Yogyakarta
+Admin State/Province: Daerah Istimewa Yogyakarta
+Admin Postal Code: 55188
+Admin Country: ID
+Admin Phone: +62.2746139821
+Admin Email: redmist@protonmail.com
+
+============================================================
+Tech Contact
+============================================================
+Tech Name: Hendra Wicaksono
+Tech Organization: Mandiri Digital Infrastruktur
+Tech Street: Jl. Parangtritis No. 47
+Tech City: Yogyakarta
+Tech State/Province: Daerah Istimewa Yogyakarta
+Tech Postal Code: 55188
+Tech Country: ID
+Tech Phone: +62.2746139821
+Tech Email: redmist@protonmail.com
+
+============================================================
+DNS Records
+============================================================
+A       redmist-id.net          103.28.91.47
+A       www.redmist-id.net      103.28.91.47
+MX      redmist-id.net          mail.redmist-id.net (priority: 10)
+TXT     redmist-id.net          "v=spf1 a mx ~all"
+
+============================================================
+Catatan Investigasi
+============================================================
+Domain ini pertama kali diidentifikasi dalam laporan insiden yang melibatkan
+PT Korban Finansial Indonesia pada kuartal pertama tahun 2024. Infrastruktur
+yang terdaftar atas nama individu ini kemudian dikaitkan dengan beberapa
+percobaan akses tidak sah ke sistem internal perbankan.
+
+Alamat IP 103.28.91.47 telah masuk daftar hitam oleh beberapa penyedia layanan
+keamanan siber domestik terhitung sejak Juli 2024.
+============================================================

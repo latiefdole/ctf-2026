@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Laporan Ancaman APT - PT Keamanan Siber Nasional</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; color: #222; }
+  h1 { color: #142850; border-bottom: 2px solid #142850; padding-bottom: 8px; }
+  h2 { color: #1a3a6b; margin-top: 30px; }
+  h3 { color: #2a5298; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  th { background: #142850; color: #fff; padding: 8px 12px; text-align: left; }
+  td { padding: 8px 12px; border: 1px solid #ccc; }
+  tr:nth-child(even) { background: #f4f7fb; }
+  .header-bar { background: #142850; color: #fff; padding: 16px 24px; margin-bottom: 24px; }
+  .classification { color: #b00; font-weight: bold; font-size: 0.9em; }
+  .section { margin-bottom: 28px; }
+  code { background: #f0f0f0; padding: 2px 5px; font-family: monospace; font-size: 0.95em; }
+</style>
+</head>
+<body>
+
+<div class="header-bar">
+  <strong>PT KEAMANAN SIBER NASIONAL</strong><br>
+  Divisi Threat Intelligence - Laporan Analisis Ancaman
+</div>
+
+<p class="classification">KLASIFIKASI: RAHASIA - DISTRIBUSI TERBATAS</p>
+
+<h1>Laporan Ancaman APT: Kampanye Spear-Phishing Q1 2026</h1>
+
+<p><strong>Nomor Laporan:</strong> TI-2026-031<br>
+<strong>Tanggal:</strong> 22 Februari 2026<br>
+<strong>Disusun oleh:</strong> Tim Analisis Tingkat Lanjut<br>
+<strong>Status:</strong> FINAL</p>
+
+<div class="section">
+<h2>Section 1 - Ringkasan Eksekutif</h2>
+<p>Kampanye spear-phishing yang menargetkan pejabat kementerian terdeteksi pada Januari 2026.
+Pelaku menggunakan lampiran JPEG yang tampak resmi namun mengandung muatan tersembunyi.
+Teknik pengiriman payload konsisten dengan kelompok ancaman yang sebelumnya dikaitkan dengan
+operasi siber berskala regional.</p>
+
+<p>Korban menerima email dengan lampiran bertema memo dinas resmi. Setelah membuka lampiran,
+tidak ada tanda-tanda anomali yang terlihat secara visual. Analisis forensik mendalam
+mengungkap muatan tersembunyi di dalam file gambar tersebut.</p>
+</div>
+
+<div class="section">
+<h2>Section 2 - Indikator Kompromi (IOC)</h2>
+<p>Indikator-indikator berikut dikumpulkan dari analisis lalu lintas jaringan, artefak
+memori, dan pemeriksaan sampel file selama investigasi berlangsung.</p>
+
+<table>
+  <tr>
+    <th>Jenis IOC</th>
+    <th>Nilai</th>
+    <th>Keterangan</th>
+  </tr>
+  <tr>
+    <td>Hash IOC-1</td>
+    <td><code>a3f82c19e4b7d06511f2c845930dbe72</code></td>
+    <td>MD5 payload dropper (terdeteksi di sistem korban)</td>
+  </tr>
+  <tr>
+    <td>Hash IOC-2</td>
+    <td><code>9b1e4f37ad820c654f1b2e8973dc04a1</code></td>
+    <td>SHA-1 loader komponen sekunder</td>
+  </tr>
+  <tr>
+    <td>Hash IOC-3</td>
+    <td><code>Z2Vsb21iYW5nX2hpdGFt</code></td>
+    <td>Token autentikasi C2 terenkode (ditemukan di konfigurasi jaringan)</td>
+  </tr>
+  <tr>
+    <td>Hash IOC-4</td>
+    <td><code>8d4e1f92b7a305c6d0e81f47293bc510</code></td>
+    <td>SHA-256 file konfigurasi C2 terenkripsi</td>
+  </tr>
+  <tr>
+    <td>Domain C2</td>
+    <td><code>update.svc-cloud[.]net</code></td>
+    <td>Domain command and control (sinkholed)</td>
+  </tr>
+  <tr>
+    <td>IP C2</td>
+    <td><code>198.51.100.47</code></td>
+    <td>IP server C2 primer (RFC 5737 - dokumentasi)</td>
+  </tr>
+</table>
+
+<p>Catatan: Nilai pada kolom Hash IOC-3 merupakan representasi token yang ditemukan
+dalam konfigurasi jaringan internal pelaku dan memerlukan pemrosesan tambahan untuk
+diinterpretasikan.</p>
+</div>
+
+<div class="section">
+<h2>Section 3 - Analisis Teknis</h2>
+<p>Metode pengiriman muatan memanfaatkan karakteristik format file yang umum digunakan
+dalam komunikasi bisnis. Pendekatan ini memungkinkan muatan melewati pemeriksaan antivirus
+berbasis tanda tangan karena file tampak sah secara visual dan struktural.</p>
+
+<p>Autentikasi ke server C2 menggunakan token yang dihasilkan dari nilai konfigurasi
+internal yang juga ditemukan pada beberapa artefak forensik. Token tersebut diproses
+melalui satu lapisan encoding sebelum digunakan dalam komunikasi jaringan.</p>
+</div>
+
+<div class="section">
+<h2>Section 4 - Rekomendasi</h2>
+<ul>
+  <li>Blokir semua domain dan IP yang tercantum di Section 2 pada perimeter jaringan.</li>
+  <li>Lakukan pemindaian forensik pada semua workstation yang menerima email dari domain mencurigakan dalam rentang waktu Januari 2026.</li>
+  <li>Perbarui aturan deteksi pada solusi keamanan endpoint untuk mendeteksi pola serupa.</li>
+  <li>Tingkatkan kesadaran pengguna terhadap lampiran email bertema dokumen resmi.</li>
+</ul>
+</div>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"915e529c746e42f2acafc4c8dba901f7","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

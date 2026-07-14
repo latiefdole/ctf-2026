@@ -1,0 +1,36 @@
+Title: Live Content
+
+Description: Fetched live
+
+Source: https://5b016909-ctf.dsg.id/profile_analysis.txt
+
+---
+
+Analisis Profil - n0ct4lys1s
+================================
+Disiapkan oleh: Tim Riset, PT Sigilum Siber
+Tanggal: 2024-01-12
+
+RINGKASAN OPERASIONAL:
+Operator yang dikenal dengan alias "n0ct4lys1s" terdeteksi aktif di forum IndonesiaUnderground
+sejak awal Januari 2024. Aktivitas menunjukkan keahlian teknis tingkat menengah-lanjut.
+
+PROFIL PERILAKU:
+- Timezone: UTC+7 (WIB) berdasarkan pola waktu posting
+- Aktivitas forum tertinggi antara 02:00-04:00 UTC (09:00-11:00 WIB lokal)
+- Gaya penulisan: teknis, singkat, menghindari detail personal
+- Nama asli kemungkinan berawalan huruf 'A' berdasarkan analisis gaya bahasa
+
+ANALISIS TEKNIS:
+- Menggunakan PGP untuk semua komunikasi publik di forum
+- Tidak ada metadata yang bocor dari posting forum utama
+- Pola enkripsi konsisten dengan operator berpengalaman
+
+CATATAN INVESTIGASI:
+Epoch bergabung di forum yang tercantum dalam HTML source (1704067200) diidentifikasi
+sebagai tanggal lahir fiktif operator dalam konteks operasional, bukan tanggal lahir asli.
+Nilai epoch ini tetap relevan untuk rekonstruksi identifikasi operasional operator.
+
+STATUS: Investigasi berlanjut - identitas belum terkonfirmasi
+
+

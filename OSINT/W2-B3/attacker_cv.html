@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil - Hendra Wicaksono | Portal Intelijen Siber</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #0a0e17;
+      color: #c8d6e5;
+      min-height: 100vh;
+    }
+    header {
+      background: #0d1526;
+      border-bottom: 2px solid #1e3a5f;
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #4fc3f7;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .logo span { color: #ef5350; }
+    nav a {
+      color: #90a4ae;
+      text-decoration: none;
+      margin-left: 28px;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #4fc3f7; }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 50px 40px;
+    }
+    .breadcrumb {
+      color: #37474f;
+      font-size: 0.8rem;
+      margin-bottom: 30px;
+    }
+    .breadcrumb a { color: #546e7a; text-decoration: none; }
+    .breadcrumb a:hover { color: #4fc3f7; }
+    .profile-header {
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+      background: #0d1526;
+      border: 1px solid #1e3a5f;
+      border-left: 4px solid #ef5350;
+      padding: 28px;
+      margin-bottom: 32px;
+    }
+    .profile-photo {
+      width: 110px;
+      height: 110px;
+      border: 2px solid #1e3a5f;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .profile-info h1 {
+      font-size: 1.5rem;
+      color: #e0f7fa;
+      margin-bottom: 6px;
+    }
+    .profile-info .alias {
+      color: #ef5350;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .profile-info .meta {
+      color: #78909c;
+      font-size: 0.85rem;
+      line-height: 1.8;
+    }
+    .profile-info .meta strong { color: #90a4ae; }
+    .section {
+      background: #0d1526;
+      border: 1px solid #1e3a5f;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .section-title {
+      color: #4fc3f7;
+      font-size: 0.8rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #1e3a5f;
+      padding-bottom: 8px;
+      margin-bottom: 18px;
+    }
+    .section p {
+      color: #90a4ae;
+      font-size: 0.9rem;
+      line-height: 1.8;
+      margin-bottom: 12px;
+    }
+    .tag {
+      display: inline-block;
+      background: #1e3a5f;
+      color: #4fc3f7;
+      padding: 3px 10px;
+      font-size: 0.75rem;
+      margin: 3px;
+    }
+    .ref-list {
+      list-style: none;
+    }
+    .ref-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid #0d1f30;
+      color: #90a4ae;
+      font-size: 0.85rem;
+    }
+    .ref-list li:last-child { border-bottom: none; }
+    .ref-list a {
+      color: #4fc3f7;
+      text-decoration: none;
+    }
+    .ref-list a:hover { color: #81d4fa; text-decoration: underline; }
+    .ref-list .ref-desc {
+      color: #546e7a;
+      font-size: 0.8rem;
+      margin-top: 3px;
+    }
+    .warning-strip {
+      background: #1a0a0a;
+      border: 1px solid #4a1010;
+      border-left: 4px solid #ef5350;
+      padding: 12px 18px;
+      margin-bottom: 24px;
+      font-size: 0.8rem;
+      color: #ef9a9a;
+      letter-spacing: 1px;
+    }
+    footer {
+      background: #0d1526;
+      border-top: 1px solid #1e3a5f;
+      padding: 20px 40px;
+      text-align: center;
+      color: #37474f;
+      font-size: 0.8rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">PT Nusantara <span>Aman</span> Digital</div>
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="#">Tentang</a>
+    <a href="attacker_cv.html">Profil Peneliti</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <div class="breadcrumb">
+    <a href="index.html">Beranda</a> &gt; Profil Peneliti
+  </div>
+
+  <div class="warning-strip">
+    [DOKUMEN TERBATAS] - Hanya untuk penggunaan internal tim analisis ancaman
+  </div>
+
+  <div class="profile-header">
+    <img src="profile.jpg" alt="Foto Profil" class="profile-photo">
+    <div class="profile-info">
+      <h1>Hendra Wicaksono</h1>
+      <div class="alias">Alias: RedMist_ID</div>
+      <div class="meta">
+        <strong>Domain Pribadi:</strong> redmist-id.net<br>
+        <strong>Email Terdaftar:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="532136373e3a20271323213c273c3d3e323a3f7d303c3e">[email&#160;protected]</a><br>
+        <strong>Status:</strong> Individu yang sedang diinvestigasi<br>
+        <strong>Spesialisasi:</strong> Penetrasi jaringan, rekayasa sosial, eksfiltrasi data
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Ringkasan Profil</div>
+    <p>
+      Hendra Wicaksono, yang dikenal secara online dengan alias "RedMist_ID", adalah seorang
+      individu dengan latar belakang di bidang keamanan jaringan dan infrastruktur TI. Berdasarkan
+      penelusuran sumber terbuka, yang bersangkutan pernah bekerja di sektor keuangan sebelum
+      beralih ke aktivitas yang meragukan.
+    </p>
+    <p>
+      Domain pribadi <strong>redmist-id.net</strong> pertama kali terdaftar pada tahun 2024 dan
+      sejak saat itu digunakan sebagai infrastruktur untuk berbagai aktivitas yang sedang kami
+      selidiki. Rekaman registrasi domain dapat dilihat pada berkas referensi di bawah.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Kemampuan Teknis</div>
+    <p>Berdasarkan jejak digital yang ditemukan, individu ini menguasai berbagai keahlian teknis:</p>
+    <div style="margin-top:12px;">
+      <span class="tag">Network Scanning</span>
+      <span class="tag">Social Engineering</span>
+      <span class="tag">OSINT</span>
+      <span class="tag">Scripting (Python/Bash)</span>
+      <span class="tag">Web Application Testing</span>
+      <span class="tag">Data Exfiltration</span>
+      <span class="tag">Infrastructure Recon</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Dokumen Referensi Terkait</div>
+    <ul class="ref-list">
+      <li>
+        <a href="whois_dump.txt">whois_dump.txt</a>
+        <div class="ref-desc">Rekaman data registrasi domain redmist-id.net dari basis data WHOIS publik</div>
+      </li>
+      <li>
+        <a href="linkedin_export.txt">linkedin_export.txt</a>
+        <div class="ref-desc">Ekspor arsip data profil LinkedIn yang dikaitkan dengan individu ini</div>
+      </li>
+      <li>
+        Korespondensi email terkait infrastruktur - lihat arsip internal tim
+        <div class="ref-desc">Berkas komunikasi elektronik tersedia melalui indeks repositori</div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Catatan Analis</div>
+    <p>
+      Individu ini diketahui menggunakan beberapa lapisan infrastruktur untuk menyembunyikan
+      aktivitasnya. Dokumen konfigurasi yang bocor dari salah satu operasinya mengandung
+      data terenkripsi yang diduga memuat informasi kritis tentang target berikutnya.
+    </p>
+    <p>
+      Tim analisis merekomendasikan pemeriksaan menyeluruh terhadap semua berkas yang terhubung
+      dengan profil ini, termasuk berkas-berkas yang tidak ditampilkan secara eksplisit.
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2024 PT Nusantara Aman Digital - Divisi Intelijen Siber - Dokumen Internal
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

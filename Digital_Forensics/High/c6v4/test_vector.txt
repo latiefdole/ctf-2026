@@ -1,0 +1,9 @@
+Test Vector untuk verifikasi implementasi dekripsi:
+
+PT = 0102030405060708
+CT = 4E5414112E3C54F8
+
+Keterangan:
+- Input 8 byte (64-bit), representasi hexadecimal big-endian
+- Blok diproses dengan 4 kunci K1..K4 secara berurutan
+- Output 8 byte (64-bit), representasi hexadecimal big-endian

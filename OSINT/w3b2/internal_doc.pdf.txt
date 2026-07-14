@@ -1,0 +1,50 @@
+DOKUMEN INTERNAL - SANGAT RAHASIA
+PT Intelijen Operasional Merah
+Nomor Dokumen: OPS-2024-001
+Tanggal: 15 Januari 2024
+
+========================================
+PROSEDUR OPERASIONAL STANDAR
+Identifikasi Anggota Kelompok
+========================================
+
+1. PENDAHULUAN
+
+Dokumen ini menguraikan prosedur identifikasi dan autentikasi anggota aktif
+Kelompok Elang Merah. Prosedur ini wajib dipatuhi oleh semua operator.
+
+2. SISTEM AUTENTIKASI
+
+Setiap anggota diidentifikasi menggunakan kata sandi operasional yang unik.
+Kata sandi terdiri dari tiga komponen yang digabungkan dengan tanda underscore.
+
+3. TABEL REFERENSI KATA SANDI
+
++----------------------------------+---------------------------+
+| Parameter                        | Nilai                     |
++----------------------------------+---------------------------+
+| Kata Sandi Operasional           | elang_<PART2>_<PART3>     |
+| Format komponen                  | huruf kecil semua         |
+| Pemisah antar komponen           | underscore (_)            |
+| Jumlah komponen                  | 3 (tiga)                  |
++----------------------------------+---------------------------+
+
+Catatan: nilai <PART2> dan <PART3> tidak dicantumkan dalam dokumen ini
+untuk alasan keamanan. Nilai masing-masing komponen dapat diperoleh dari
+sumber referensi operasional yang telah ditentukan.
+
+4. PROSEDUR VERIFIKASI
+
+Setiap anggota wajib mengkonfirmasi pengetahuan kata sandi operasional kepada
+koordinator sebelum setiap sesi operasional dimulai. Rotasi dilakukan setiap
+90 hari atau segera setelah insiden keamanan.
+
+5. PERINGATAN KEAMANAN
+
+Dokumen ini tidak boleh disimpan dalam bentuk terenkripsi rendah. Penghancuran
+segera diperlukan setelah dibaca.
+
+========================================
+Dikeluarkan oleh: Divisi Keamanan Internal
+Diarsipkan: Tim Investigasi PT Intelijen Siber Nusantara (2024-01-20)
+========================================

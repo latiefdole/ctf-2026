@@ -1,0 +1,18 @@
+Spesifikasi VM v2 - Pelindung Payload Elang
+============================================
+
+VM v2: opcode yang didukung:
+
+  0x01 PUSH  <byte>   - Masukkan 1 byte ke atas stack
+  0x02 POP            - Buang nilai di atas stack
+  0x03 XOR            - Ambil 2 nilai dari stack, XOR, masukkan hasil
+  0x04 PRINT          - Ambil nilai dari stack, cetak sebagai karakter ASCII
+  0x05 JMP   <offset> - Lompat tidak bersyarat; offset adalah signed byte
+                        (nilai negatif = lompat mundur)
+  0x06 HALT           - Hentikan eksekusi
+
+Bytecode tertanam di binary sebagai array di segmen read-only.
+Binary memerlukan password yang benar sebagai argv[1].
+
+Catatan: offset JMP adalah 1 byte setelah opcode JMP.
+Nilai offset > 127 harus diinterpretasikan sebagai bilangan negatif (signed 8-bit).

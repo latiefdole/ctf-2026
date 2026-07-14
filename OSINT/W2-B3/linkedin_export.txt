@@ -1,0 +1,118 @@
+============================================================
+ARSIP DATA LINKEDIN - Ekspor Profil
+Nama Akun    : Hendra Wicaksono
+Tanggal Ekspor: 2024-10-02
+Format       : Teks Datar (TXT)
+============================================================
+
+== INFORMASI PROFIL ==
+
+Nama Lengkap   : Hendra Wicaksono
+Headline       : IT Infrastructure Specialist | Network Security Enthusiast
+Lokasi         : Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia
+Koneksi        : 387 koneksi
+URL Profil     : linkedin.com/in/hendra-wicaksono-infra
+
+Ringkasan:
+  Profesional di bidang infrastruktur TI dengan pengalaman lebih dari delapan tahun
+  di sektor perbankan dan keuangan. Saya berspesialisasi dalam desain arsitektur jaringan,
+  keamanan endpoint, dan audit kepatuhan sistem. Saat ini saya menjalankan proyek
+  konsultasi independen melalui Mandiri Digital Infrastruktur.
+
+== PENGALAMAN KERJA ==
+
+-------------------------------------------------------------
+Mandiri Digital Infrastruktur
+Jabatan   : Pendiri dan Konsultan Independen
+Periode   : Januari 2024 - Sekarang
+Lokasi    : Yogyakarta, Indonesia
+Deskripsi :
+  Memberikan layanan konsultasi infrastruktur TI dan keamanan jaringan kepada
+  klien korporat di wilayah Jawa Tengah dan DIY. Fokus pada hardening server,
+  audit konfigurasi, dan pemulihan insiden.
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+PT Korban Finansial Indonesia
+Jabatan   : Senior Network Security Engineer
+Periode   : Maret 2020 - Desember 2023
+Lokasi    : Jakarta, Indonesia
+Deskripsi :
+  Bertanggung jawab atas pengelolaan infrastruktur jaringan inti perusahaan dengan
+  lebih dari 1.200 node aktif. Memimpin tim 6 engineer dalam implementasi sistem
+  deteksi intrusi (IDS/IPS) dan pemantauan keamanan 24/7. Terlibat dalam migrasi
+  pusat data dari fasilitas lama ke infrastruktur cloud hybrid.
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+PT Artha Teknologi Nusantara
+Jabatan   : Network Engineer
+Periode   : Juni 2017 - Februari 2020
+Lokasi    : Surabaya, Indonesia
+Deskripsi :
+  Pengelolaan dan pemeliharaan infrastruktur jaringan perusahaan fintech tahap awal.
+  Konfigurasi perangkat Cisco, Juniper, dan Fortinet. Implementasi VPN site-to-site
+  dan monitoring bandwidth.
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+CV Wahana Infotek
+Jabatan   : Junior System Administrator
+Periode   : Agustus 2015 - Mei 2017
+Lokasi    : Yogyakarta, Indonesia
+Deskripsi :
+  Administrasi server Linux (CentOS, Ubuntu), pemeliharaan jaringan lokal, dan
+  dukungan teknis pengguna akhir.
+-------------------------------------------------------------
+
+== PENDIDIKAN ==
+
+-------------------------------------------------------------
+Universitas Gadjah Mada
+Gelar   : Sarjana Teknik Informatika (S.T.)
+Periode : 2011 - 2015
+-------------------------------------------------------------
+
+== KEAHLIAN ==
+
+Keahlian Teratas:
+  - Network Security
+  - Linux System Administration
+  - Cisco Networking
+  - Firewall Management
+  - Penetration Testing
+
+Keahlian Lainnya:
+  - Python Scripting
+  - Bash Automation
+  - SIEM Management
+  - Incident Response
+  - Cloud Infrastructure (AWS, GCP)
+  - Docker and Container Orchestration
+  - Vulnerability Assessment
+
+== SERTIFIKASI ==
+
+  - Cisco Certified Network Professional (CCNP) - 2019
+  - Certified Ethical Hacker (CEH) v11 - 2021
+  - CompTIA Security+ - 2018
+
+== REKOMENDASI DITERIMA ==
+
+-------------------------------------------------------------
+Dari: Budi Santoso, IT Director - PT Korban Finansial Indonesia
+  "Hendra adalah salah satu engineer paling terampil yang pernah saya pimpin.
+  Kemampuan analitisnya dalam mendeteksi anomali jaringan sangat luar biasa.
+  Sayang sekali dia memutuskan untuk meninggalkan perusahaan."
+-------------------------------------------------------------
+
+== DATA KONTAK ==
+
+Email Bisnis : hendra.wicaksono@mandiri-digital.id
+Email Pribadi: redmist@protonmail.com
+Telepon      : +62-274-613-9821
+Website      : redmist-id.net
+
+============================================================
+[Akhir Ekspor Data LinkedIn]
+============================================================

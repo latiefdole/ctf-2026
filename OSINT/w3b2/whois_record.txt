@@ -1,0 +1,29 @@
+Domain Name: elangmerah-ops.id
+Registry Domain ID: 2023071401-ID
+Registrar WHOIS Server: whois.hostingfiktif.id
+Registrar URL: http://www.hostingfiktif.id
+Updated Date: 2024-01-10T00:00:00Z
+Creation Date: 2023-07-14T00:00:00Z
+Registry Expiry Date: 2025-07-14T00:00:00Z
+Registrar: Hostingfiktif Registrar, PT
+Registrar IANA ID: 99182
+Registrar Abuse Contact Email: abuse@hostingfiktif.id
+Registrar Abuse Contact Phone: +62.2100001234
+Domain Status: clientTransferProhibited
+
+Registry Registrant ID: REDACTED
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Organization: REDACTED FOR PRIVACY
+Registrant Street: REDACTED FOR PRIVACY
+Registrant City: REDACTED FOR PRIVACY
+Registrant State/Province: DKI Jakarta
+Registrant Postal Code: 10110
+Registrant Country: ID
+Registrant Phone: REDACTED FOR PRIVACY
+Registrant Email: operator@elangmerah-ops.id
+
+Name Server: ns1.hostingfiktif.id
+Name Server: ns2.hostingfiktif.id
+DNSSEC: unsigned
+
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/

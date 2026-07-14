@@ -1,0 +1,16 @@
+Spesifikasi Protokol - SCADA Industrial Communication Protocol (SICP)
+Versi Parsial - Diperoleh dari Analisis Lalu Lintas Jaringan
+
+Format Pesan:
+  Magic   : 2 bytes, nilai tetap 0xDE 0xAD (penanda awal pesan)
+  Type    : 1 byte
+              0x01 = HEARTBEAT (payload: timestamp 4 byte big-endian)
+              0x02 = DATA      (payload: pesan status operasional)
+              0x03 = FLAG      (payload: data flag yang di-encode)
+              0x04 = CLOSE     (payload: kosong, panjang=0)
+  Length  : 2 bytes, big-endian (jumlah byte payload yang mengikuti)
+  Payload : <Length> bytes
+
+Catatan: hanya satu pesan FLAG yang ada dalam log komunikasi ini.
+Semua pesan dimulai dengan magic number yang sama.
+Payload pesan DATA mengandung pesan status tekstual dalam Bahasa Indonesia.

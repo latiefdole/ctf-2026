@@ -1,0 +1,14 @@
+Deskripsi Cipher - Hasil Analisis Malware
+
+Cipher ini terdiri dari dua langkah yang diterapkan secara berurutan:
+
+(1) Substitusi: setiap huruf alfabet (a-z) dipetakan ke huruf alfabet lain menggunakan
+    tabel substitusi rahasia yang tetap. Karakter non-alfabet tidak berubah. Tabel
+    substitusi yang sama digunakan untuk semua pesan.
+
+(2) Transposisi: string hasil substitusi dibaca kolom demi kolom menggunakan lebar kolom W.
+    W sama untuk semua pesan. String di-pad dengan '_' sebelum transposisi jika panjangnya
+    bukan kelipatan W. Nilai W dapat ditemukan dari analisis panjang contoh plaintext.
+
+Analisis forensik mengkonfirmasi bahwa cipher ini digunakan secara konsisten dalam semua
+komunikasi yang disadap. Pasangan sampel tersedia untuk analisis known-plaintext.

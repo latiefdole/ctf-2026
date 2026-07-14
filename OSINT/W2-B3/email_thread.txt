@@ -1,0 +1,70 @@
+============================================================
+ARSIP EMAIL - Korespondensi Terkait Infrastruktur
+Diekstrak  : 2024-11-10 07:14:33 UTC
+Sumber     : Mailbox Backup Server (bocor)
+============================================================
+
+------- Pesan 1 dari 3 -------
+
+From: hendra.wicaksono@mandiri-digital.id
+To: ops-team@mandiri-digital.id
+Date: Mon, 08 Jan 2024 14:32:11 +0700
+Subject: Setup Awal Server Produksi
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+X-Mailer: Thunderbird 115.4.1
+X-Priority: 1
+X-Mailer-Token: 5a6d394b30303237363034303731
+
+Rekan-rekan,
+
+Server produksi sudah saya konfigurasi dengan setting yang telah kita sepakati.
+Kunci deployment sudah saya enkripsi dan simpan di repositori konfigurasi.
+Pastikan tidak ada yang menyebarkan kunci tersebut ke luar tim inti.
+
+Detail akses awal:
+  - Server: 103.28.91.47
+  - Port SSH: 2222 (bukan default)
+  - Key autentikasi: lihat berkas konfigurasi
+
+Mohon konfirmasi setelah membaca pesan ini.
+
+Salam,
+Hendra
+
+------- Pesan 2 dari 3 -------
+
+From: ops-team@mandiri-digital.id
+To: hendra.wicaksono@mandiri-digital.id
+Date: Mon, 08 Jan 2024 16:55:40 +0700
+Subject: Re: Setup Awal Server Produksi
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hendra,
+
+Sudah diterima. Kami sudah akses dan semua berjalan baik.
+Satu catatan: tolong pastikan kunci DEPLOY_KEY di file konfigurasi
+tidak diunggah ke repositori publik.
+
+Salam,
+Tim Operasional
+
+------- Pesan 3 dari 3 -------
+
+From: hendra.wicaksono@mandiri-digital.id
+To: ops-team@mandiri-digital.id
+Date: Tue, 09 Jan 2024 09:17:05 +0700
+Subject: Re: Re: Setup Awal Server Produksi
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Tenang, kunci sudah dienkripsi dengan metode yang kita sepakati.
+Siapa pun yang menemukan berkas itu tidak akan bisa membukanya
+tanpa mengetahui konteks lengkapnya.
+
+Hendra
+
+============================================================
+[Akhir Arsip Email]
+============================================================

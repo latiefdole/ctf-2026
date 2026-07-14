@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumen Perusahaan - PT Korban Finansial Indonesia</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #0a0e17;
+      color: #c8d6e5;
+      min-height: 100vh;
+    }
+    header {
+      background: #0d1526;
+      border-bottom: 2px solid #1e3a5f;
+      padding: 16px 40px;
+    }
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #4fc3f7;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .logo span { color: #ef5350; }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 50px 40px;
+    }
+    .doc-header {
+      background: #0d1f30;
+      border: 1px solid #1e3a5f;
+      border-top: 4px solid #ffb300;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .doc-header .doc-type {
+      color: #ffb300;
+      font-size: 0.75rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .doc-header h1 {
+      color: #e0f7fa;
+      font-size: 1.3rem;
+      margin-bottom: 14px;
+    }
+    .doc-meta {
+      color: #546e7a;
+      font-size: 0.8rem;
+      line-height: 1.9;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section-title {
+      color: #4fc3f7;
+      font-size: 0.8rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #1e3a5f;
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+    }
+    .section p {
+      color: #90a4ae;
+      font-size: 0.9rem;
+      line-height: 1.8;
+      margin-bottom: 12px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+    }
+    th {
+      background: #0d1f30;
+      color: #4fc3f7;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 10px 14px;
+      text-align: left;
+      border: 1px solid #1e3a5f;
+    }
+    td {
+      color: #90a4ae;
+      font-size: 0.85rem;
+      padding: 10px 14px;
+      border: 1px solid #0d1f30;
+    }
+    tr:nth-child(even) td { background: #0a1220; }
+    .redacted {
+      background: #1a1a1a;
+      color: #1a1a1a;
+      padding: 0 8px;
+      border-radius: 2px;
+      user-select: none;
+    }
+    .stamp {
+      background: #1a0a0a;
+      border: 2px solid #4a1010;
+      color: #ef5350;
+      padding: 10px 20px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+    footer {
+      background: #0d1526;
+      border-top: 1px solid #1e3a5f;
+      padding: 20px 40px;
+      text-align: center;
+      color: #37474f;
+      font-size: 0.8rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">PT Nusantara <span>Aman</span> Digital</div>
+</header>
+
+<div class="container">
+
+  <div class="doc-header">
+    <div class="doc-type">Dokumen Bocor - Sumber: Tidak Diketahui</div>
+    <h1>PT Korban Finansial Indonesia<br>Laporan Insiden Keamanan Internal Q1 2024</h1>
+    <div class="doc-meta">
+      Nomor Dokumen : KFI-SEC-2024-0118<br>
+      Tanggal Dibuat: 18 Januari 2024<br>
+      Klasifikasi   : RAHASIA - Hanya Untuk Pejabat Berwenang<br>
+      Divisi        : Keamanan Informasi dan Manajemen Risiko TI
+    </div>
+  </div>
+
+  <div class="stamp">DOKUMEN INI TELAH BOCOR - SUMBER BELUM TERVERIFIKASI</div>
+
+  <div class="section">
+    <div class="section-title">Ringkasan Eksekutif</div>
+    <p>
+      Pada tanggal 15 Januari 2024, tim keamanan informasi PT Korban Finansial Indonesia
+      mendeteksi aktivitas tidak normal pada server inti pemrosesan transaksi. Akses tidak
+      sah ditemukan melalui akun layanan yang telah dinonaktifkan namun tidak dihapus dari
+      sistem Active Directory.
+    </p>
+    <p>
+      Investigasi awal mengindikasikan bahwa individu dengan pengetahuan mendalam tentang
+      infrastruktur internal perusahaan terlibat. Pola akses dan teknik yang digunakan
+      sangat spesifik dan menunjukkan pemahaman yang bukan berasal dari pihak luar.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Detail Kronologi Insiden</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Waktu (WIB)</th>
+          <th>Kejadian</th>
+          <th>Sistem Terdampak</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>15 Jan 2024 - 02:14</td>
+          <td>Login gagal berulang pada akun svc_network_mon</td>
+          <td>AD Domain Controller</td>
+        </tr>
+        <tr>
+          <td>15 Jan 2024 - 02:31</td>
+          <td>Login berhasil dengan kredensial lama</td>
+          <td>AD Domain Controller</td>
+        </tr>
+        <tr>
+          <td>15 Jan 2024 - 02:44</td>
+          <td>Pemindaian jaringan internal terdeteksi</td>
+          <td>Core Switch L3</td>
+        </tr>
+        <tr>
+          <td>15 Jan 2024 - 03:17</td>
+          <td>Akses ke server repositori konfigurasi</td>
+          <td>CONFIG-SRV-01</td>
+        </tr>
+        <tr>
+          <td>15 Jan 2024 - 03:52</td>
+          <td>Eksfiltrasi data terdeteksi ke IP eksternal</td>
+          <td>Firewall Log</td>
+        </tr>
+        <tr>
+          <td>15 Jan 2024 - 04:08</td>
+          <td>Sesi diputus secara manual oleh SOC</td>
+          <td>Semua sistem</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Indikator Kompromi (IoC)</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Tipe</th>
+          <th>Nilai</th>
+          <th>Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>IP Sumber</td>
+          <td>103.28.91.47</td>
+          <td>VPS terdaftar atas nama entitas Indonesia</td>
+        </tr>
+        <tr>
+          <td>User-Agent</td>
+          <td>Mozilla/5.0 (custom)</td>
+          <td>String custom, tidak umum</td>
+        </tr>
+        <tr>
+          <td>Domain C2</td>
+          <td class="redacted">redmist-id.net</td>
+          <td>Domain yang digunakan untuk callback</td>
+        </tr>
+        <tr>
+          <td>Hash File</td>
+          <td><span class="redacted">3f4a8d9e2b1c7056ab34ef90</span></td>
+          <td>Skrip pemindai yang ditinggalkan</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Kesimpulan dan Rekomendasi</div>
+    <p>
+      Berdasarkan analisis forensik awal, tim keamanan menyimpulkan bahwa pelaku kemungkinan
+      besar adalah mantan karyawan atau individu yang memiliki akses terhadap dokumentasi
+      infrastruktur internal. Pengetahuan tentang skema penamaan akun layanan dan topologi
+      jaringan internal sangat mengurangi kemungkinan ini berasal dari peretas luar yang
+      tidak berpengalaman.
+    </p>
+    <p>
+      Rekomendasi segera: rotasi semua kredensial layanan, audit akun tidak aktif,
+      peninjauan kebijakan offboarding karyawan, dan peningkatan monitoring log autentikasi.
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2024 PT Nusantara Aman Digital - Divisi Intelijen Siber - Dokumen Internal
+</footer>
+
+</body>
+</html>

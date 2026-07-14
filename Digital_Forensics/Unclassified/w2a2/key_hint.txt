@@ -1,0 +1,11 @@
+CATATAN ANALIS - Unit Forensik IoT
+PT Telematika Sentral
+
+Kunci diturunkan dari nama organisasi penyerang yang diketahui + tahun pertama
+kemunculannya. Format: <NAMA><TAHUN>.
+
+Nama diambil dari Common Name di sertifikat self-signed yang ditemukan di memori
+perangkat - lihat cert_cn.txt.
+
+Tahun kemunculan pertama dapat ditemukan melalui pencarian OSINT singkat tentang
+varian botnet tersebut. Sumber referensi publik tersedia luas.

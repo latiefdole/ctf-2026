@@ -1,0 +1,24 @@
+# Konfigurasi C2 - Kelompok Elang Merah
+# RAHASIA - Hanya untuk anggota terotorisasi
+
+[C2]
+host = elangmerah-ops.id
+port = 4443
+protocol = tls1.3
+reconnect_interval = 300
+max_retries = 5
+
+[Auth]
+method = passphrase
+passphrase_part3 = cmVrdXQK
+rotation_period = 90d
+
+[Proxy]
+enabled = true
+proxy_host = 10.20.30.1
+proxy_port = 8080
+
+[Logging]
+level = WARNING
+log_file = /var/log/ops.log
+max_size = 10M

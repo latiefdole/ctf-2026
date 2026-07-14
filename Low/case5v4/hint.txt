@@ -1,7 +1,0 @@
-File ini bukan sekadar gambar - dan bukan sekadar arsip.
-Periksa format file dari dua sisi: awal dan akhir.
-
-Petunjuk tambahan:
-- Beberapa format file dapat digabungkan menjadi satu file tunggal yang valid sebagai keduanya
-- Data yang tersembunyi di dalam gambar mungkin adalah kunci untuk membuka sesuatu yang lain
-- Perhatikan bagaimana data piksel gambar menyimpan nilai yang tidak biasa pada kanal warna tertentu
