@@ -1,0 +1,11 @@
+{
+  "app_name": "NSS Platform Config Manager",
+  "version": "1.2.1",
+  "environment": "production",
+  "api_key": "REDACTED_USE_ENV_VAR",
+  "db_host": "db-internal.nss.id",
+  "db_port": 5432,
+  "db_name": "nss_platform_prod",
+  "log_level": "INFO",
+  "max_connections": 50
+}
