@@ -1,0 +1,11 @@
+PETA KOTA REFERENSI - PT Cakrawala Logistik
+============================================
+Proyek Dokumentasi Perjalanan Bisnis Q3 2024
+
+Urutan kunjungan berdasarkan posisi geografis:
+  - Kota paling utara di Indonesia  : koordinat lintang tertinggi
+  - Kota tengah (dari utara-selatan): koordinat lintang menengah
+  - Kota paling selatan              : koordinat lintang terendah
+
+Catatan: Kumpulkan semua bagian dari ketiga foto, kemudian susun
+dari utara ke selatan untuk mendapatkan urutan yang benar.

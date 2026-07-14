@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Laporan Insiden Q4 2025 - Rizal Hakim</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #2c2c2c; background: #f6f7f9; }
+  header { background: #1c2b3a; color: #fff; padding: 0 40px; display: flex; align-items: center; height: 60px; justify-content: space-between; }
+  header .brand { font-size: 1.15em; font-weight: 600; color: #7ec8e3; }
+  nav a { color: #c0d0dc; text-decoration: none; margin-left: 20px; font-size: 0.9em; }
+  .report { max-width: 860px; margin: 32px auto; padding: 0 24px; }
+  .report-header { background: #fff; border-radius: 6px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); }
+  .report-header h1 { font-size: 1.4em; color: #1c2b3a; margin-bottom: 8px; }
+  .meta-table { width: 100%; font-size: 0.85em; margin-top: 12px; }
+  .meta-table td { padding: 4px 12px 4px 0; color: #555; }
+  .meta-table td:first-child { font-weight: 600; color: #1c2b3a; width: 140px; }
+  section.block { background: #fff; border-radius: 6px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); }
+  section.block h2 { font-size: 1.05em; color: #1c2b3a; border-left: 3px solid #4aa3df; padding-left: 10px; margin-bottom: 14px; }
+  p { line-height: 1.7; font-size: 0.92em; margin-bottom: 10px; }
+  .redacted { background: #1c2b3a; color: #1c2b3a; border-radius: 2px; padding: 0 4px; user-select: none; }
+  table.evidence { width: 100%; border-collapse: collapse; font-size: 0.85em; margin-top: 10px; }
+  table.evidence th { background: #1c2b3a; color: #fff; padding: 8px 12px; text-align: left; }
+  table.evidence td { padding: 7px 12px; border-bottom: 1px solid #e8eef4; }
+  table.evidence tr:nth-child(even) td { background: #f4f7fb; }
+  .back-link { color: #4aa3df; text-decoration: none; font-size: 0.85em; }
+  footer { background: #1c2b3a; color: #5a7a8f; text-align: center; padding: 20px; font-size: 0.8em; margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">Rizal Hakim | Security Research</div>
+  <nav>
+    <a href="index.html">Blog</a>
+    <a href="email_thread.txt">Arsip Korespondensi</a>
+  </nav>
+</header>
+
+<div class="report">
+  <div class="report-header">
+    <a href="index.html" class="back-link">Kembali ke Blog</a>
+    <h1>Laporan Insiden: Kebocoran Data Infrastruktur Internal (Q4 2025)</h1>
+    <table class="meta-table">
+      <tr><td>Penulis</td><td>Rizal Hakim</td></tr>
+      <tr><td>Tanggal</td><td>12 Januari 2026</td></tr>
+      <tr><td>Klien</td><td><span class="redacted">NAMA ORGANISASI KLIEN</span></td></tr>
+      <tr><td>Referensi</td><td>INC-2025-Q4-0041</td></tr>
+      <tr><td>Status</td><td>Dipublikasikan (sebagian diredaksi)</td></tr>
+    </table>
+  </div>
+
+  <section class="block">
+    <h2>1. Ringkasan Eksekutif</h2>
+    <p>Insiden kebocoran data terdeteksi pada November 2025. Pelaku berhasil mengakses
+    repositori internal menggunakan kredensial yang diperoleh melalui serangan phishing
+    bertarget. Akses tidak sah berlangsung selama <span class="redacted">DURASI AKSES</span>
+    sebelum terdeteksi oleh sistem monitoring.</p>
+    <p>Total data yang terekspos: <span class="redacted">JUMLAH REKAMAN</span> rekaman data
+    pelanggan dan <span class="redacted">JUMLAH FILE</span> file konfigurasi infrastruktur.</p>
+  </section>
+
+  <section class="block">
+    <h2>2. Kronologi Insiden</h2>
+    <p><strong>03 November 2025 - 09:14 WIB</strong>: Email phishing dikirim ke
+    <span class="redacted">NAMA KARYAWAN TARGET</span> dengan lampiran dokumen palsu.</p>
+    <p><strong>03 November 2025 - 11:32 WIB</strong>: Kredensial korban digunakan untuk
+    login pertama kali dari alamat IP di luar Indonesia.</p>
+    <p><strong>05 November 2025 - 14:07 WIB</strong>: Akses ke repositori internal terdeteksi
+    oleh SIEM. Alert eskalasi manual dikirim ke tim respons.</p>
+    <p><strong>06 November 2025 - 08:00 WIB</strong>: Akses diblokir dan investigasi dimulai.</p>
+  </section>
+
+  <section class="block">
+    <h2>3. Temuan Teknis</h2>
+    <p>Analisis log menunjukkan bahwa pelaku menggunakan teknik lateral movement sederhana
+    setelah mendapatkan akses awal. Tidak ada eksploitasi vulnerability zero-day yang teridentifikasi
+    dalam insiden ini.</p>
+
+    <table class="evidence">
+      <tr>
+        <th>ID Bukti</th>
+        <th>Jenis</th>
+        <th>Keterangan</th>
+        <th>ID Karyawan Terkait</th>
+      </tr>
+      <tr>
+        <td>EVD-001</td>
+        <td>Log Autentikasi</td>
+        <td>Login anomali dari IP asing</td>
+        <td>EMP-<span class="redacted">XXXX</span></td>
+      </tr>
+      <tr>
+        <td>EVD-002</td>
+        <td>Email Header</td>
+        <td>Phishing email dengan lampiran .docm</td>
+        <td>EMP-8847</td>
+      </tr>
+      <tr>
+        <td>EVD-003</td>
+        <td>Network Log</td>
+        <td>Koneksi ke domain C2 eksternal</td>
+        <td><span class="redacted">EMP-XXXX</span></td>
+      </tr>
+      <tr>
+        <td>EVD-004</td>
+        <td>File Access</td>
+        <td>Akses tidak sah ke repositori konfigurasi</td>
+        <td><span class="redacted">EMP-XXXX</span></td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="block">
+    <h2>4. Rekomendasi</h2>
+    <p>Implementasi autentikasi multi-faktor wajib untuk semua akun dengan akses ke
+    infrastruktur kritis. Peningkatan kesadaran keamanan melalui simulasi phishing
+    berkala sangat disarankan.</p>
+    <p>Detail rekomendasi lengkap tersedia dalam laporan teknis penuh yang tidak
+    dipublikasikan. Lihat korespondensi terkait investigasi di
+    <a href="email_thread.txt">arsip email</a>.</p>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Rizal Hakim. Semua konten dilindungi hak cipta.</p>
+</footer>
+
+</body>
+</html>
